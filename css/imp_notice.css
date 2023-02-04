@@ -1,0 +1,49 @@
+.nav-tabs
+{
+border-color:#1589b4;
+width:100%;
+}
+
+.nav-tabs > li a { 
+border: 1px solid #1589b4;
+background-color:#337ab7 !important; 
+color:#fff !important;
+font-size: larger;
+
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+background-color:#d9edf7 !important;
+color:#000 !important;
+border: 1px solid #1589b4;
+border-bottom-color: transparent;
+
+}
+
+.nav-tabs > li > a:hover{
+background-color: #bce8f1 !important;
+border-radius: 2px;
+color:#000 !important;
+border-color: #1589b4 #1589b4 #1589b4;
+
+} 
+
+.tab-pane {
+border:solid 1px #1589b4;
+border-top: 0; 
+width:100%;
+background-color:#d9edf7;
+padding:20px;
+ border-bottom-left-radius:15px;
+border-bottom-right-radius:15px;
+
+}
+
+.ImpText1 {
+padding: 9px;border-radius: 3px; min-height: 20px;margin-bottom: 5px;border: 1px solid #e3e3e3;background-color: #ffffff;
+}
+.ImpText2 {
+padding: 9px;border-radius: 3px; min-height: 20px;margin-bottom: 5px;background-color: #f5f5f5;border: 1px solid #e3e3e3;
+}
