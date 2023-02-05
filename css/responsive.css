@@ -4,7 +4,7 @@
 
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
-@media (min-width : 768px) and (max-width : 1024px) {
+@media (min-width : 991px) and (max-width : 1024px) {
 	
 	.is-sticky .ar-nav-cent .kk {
     	display: none !important
@@ -29,6 +29,11 @@
 
 	.is-sticky .menuzord-menu {
 		margin-left: 0px !important;
+	}
+
+	.navbar-sticky .menuzord-menu > li > a {
+	    color: #c21717 !important;
+	    text-shadow: none !important
 	}
 }
 
@@ -1380,12 +1385,20 @@
 	.ar-event-time{
 	  font-size: 22px !important;
 	}
+	.navbar-sticky .menuzord-menu > li > a {
+	    color: #c21717 !important;
+	    text-shadow: none !important
+	}
 }
 
 
 @media only screen and (max-width: 580px) {
 
-  
+	.navbar-sticky .menuzord-menu > li > a {
+	    color: #c21717 !important;
+	    text-shadow: none !important
+	}
+
   #feedback-div {
     left: 3%;
     margin-right: 3%;
