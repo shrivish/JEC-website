@@ -34,7 +34,7 @@ border-bottom-color: transparent;
     text-align: left;
     font-family:'Times New Roman', Times, serif;
 }
-.modal-header-2 .close a{
+.modal-header-2 .close .a{
     float: right;
     font-size: 21px;
     font-weight: 700;
@@ -42,8 +42,13 @@ border-bottom-color: transparent;
     color: #000;
     text-shadow: 0 1px 0 #fff;
     
+    
     opacity: .2; 
 
+}
+
+.modal-header-2 .close .a .i{
+    cursor: pointer;
 }
 .nav-tabs > li.active > a{
     font-family:'Times New Roman', Times, serif;
@@ -89,3 +94,6 @@ border-top-left-radius:10px;
 border-left: 5px solid #ffc93c;
 font-family:'Times New Roman', Times, serif;
 }
+
+
+  
